@@ -1,0 +1,33 @@
+{
+  "name": "Estudio Verde Educativo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.1",
+    "canvas-confetti": "^1.9.4",
+    "firebase": "^12.5.0",
+    "lz-string": "^1.5.0",
+    "next": "^16.1.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-rnd": "^10.5.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/lz-string": "^1.3.34",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
