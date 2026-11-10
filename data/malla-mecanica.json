@@ -1,0 +1,143 @@
+{
+  "carrera": "Mecanica",
+  "universidad": "Universidad de las Fuerzas Armadas - ESPE",
+  "niveles": [
+    {
+      "nivel": 1,
+      "nombre": "Primer PAO",
+      "materias": [
+        {"id":"EXCT-A0302", "nombre": "Álgebra Lineal", "créditos": "2", "horas": "4" },
+        {"id":"COMP-A0J01", "nombre": "Fundamentos de Programación", "créditos": "3", "horas": "6" },
+        {"id":"EXCT-A0301", "nombre": "Cálculo Diferencial e Integral", "créditos": "3", "horas": "6" },        
+        {"id":"EXCT-A0201", "nombre": "Química 1", "créditos": "3", "horas": "6" },
+        {"id":"CVDA-A0300", "nombre": "Biología", "créditos": "2", "horas": "4" },
+        {"id":"CHUM-A0100", "nombre": "Metodología de la Investigación Científica", "créditos": "2", "horas": "4"}
+
+      ]
+    },
+    {
+      "nivel": 2,
+      "nombre": "Segundo PAO",
+      "materias": [
+        {"id":"EXCT-A0303", "nombre": "Cálculo Vectorial", "créditos": "3", "horas": "4", "prerrequisitos": ["EXCT-A0301","EXCT-A0302"] },
+        {"id":"EXCT-A0001", "nombre": "Física 1", "créditos": "3", "horas": "4", "prerrequisitos": ["EXCT-A0301"] },
+        {"id":"EXCT-A0401", "nombre": "Ecuaciones Diferenciales Ordinarias", "créditos": "3", "horas": "4", "prerrequisitos": ["EXCT-A0301","EXCT-A0302"] },
+        {"id":"EMEC-A0202", "nombre": "Ciencias de los Materiales", "créditos": "2", "horas": "5", "prerrequisitos": ["EXCT-A0201","CVDA-A0300"] },
+        {"id":"SEGD-A0100", "nombre": "Realidad Nacional y Geopolítica", "créditos": "2", "horas": "4", "prerrequisitos": ["CHUM-A0100"] },
+        {"id":"SEGD-A0000", "nombre": "Liderazgo", "créditos": "2", "horas": "4", "prerrequisitos": ["CHUM-A0100"] }
+
+      ]
+    },
+    {
+      "nivel": 3,
+      "nombre": "Tercer PAO",
+      "materias": [
+        {"id":"EXCT-A0402", "nombre": "Métodos Numéricos", "créditos": "2", "horas": "4", "prerrequisitos": ["EXCT-A0303","EXCT-A0401"] },
+        {"id":"EXCT-A0403", "nombre": "Matemática Superior", "créditos": "2", "horas": "4", "prerrequisitos": ["EXCT-A0401","EXCT-A0303"] },
+        {"id":"EXCT-A0501", "nombre": "Estadística", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0303","EXCT-A0401"] },
+        {"id":"EMEC-A0001", "nombre": "Soldadura", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0202"] },
+        {"id":"EMEC-A0305", "nombre": "Dibujo Mec Asistido por Computador", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0303"] },
+        {"id":"EMEC-A0204", "nombre": "Estática", "créditos": "2", "horas": "5", "prerrequisitos": ["EXCT-A0301","EXCT-A0001","EXCT-A0303"] }
+
+      ]
+    },
+    {
+      "nivel": 4,
+      "nombre": "Cuarto PAO",
+      "materias": [
+        {"id":"EMEC-A0002", "nombre": "Metrología", "créditos": "2", "horas": "4", "prerrequisitos": ["EXCT-A0501","EMEC-A0305"] },
+        {"id":"ELEE-A0621", "nombre": "Electrotecnia", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0402"] },
+        {"id":"EMEC-A0116", "nombre": "Termodinámica", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0001","EXCT-A0201","EXCT-A0403"] },
+        {"id":"EMEC-A0206", "nombre": "Ciencias de los Materiales Aplicada", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0202","EMEC-A0001"] },
+        {"id":"EMEC-A0209", "nombre": "Mecánica de Materiales", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0204"] },
+        {"id":"EMEC-A0207", "nombre": "Dinámica", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0204"] }
+
+      ]
+    },
+    {
+      "nivel": 5,
+      "nombre": "Quinto PAO",
+      "materias": [
+        {"id":"EMEC-A0006", "nombre": "Procesos de Maquinado", "créditos": "3", "horas": "5", "prerrequisitos": ["EMEC-A0002","EMEC-A0206"] },
+        {"id":"ELEE-A0622", "nombre": "Fundamentos de Máquinas Eléctricas", "créditos": "2", "horas": "5", "prerrequisitos": ["ELEE-A0621"] },
+        {"id":"EMEC-A0117", "nombre": "Mecánica de Fluidos", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0402","EMEC-A0116"] },
+        {"id":"EMEC-A0119", "nombre": "Termodinámica Aplicada", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0116"] },
+        {"id":"EMEC-A0211", "nombre": "Mecánica de Materiales Aplicada", "créditos": "2", "horas": "5", "prerrequisitos": ["EMEC-A0209"] },
+        {"id":"EMEC-A0309", "nombre": "Mecanismo y Vibraciones", "créditos": "3", "horas": "7", "prerrequisitos": ["EMEC-A0207"] }
+
+      ]
+    },
+    {
+      "nivel": 6,
+      "nombre": "Sexto PAO",
+      "materias": [
+        {"id":"EMEC-A0007", "nombre": "Manufactura Asis por Computador para MC", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0006"] },
+        {"id":"EMEC-A0406", "nombre": "Dinámica de Sistemas", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0622"] },
+        {"id":"EMEC-A0124", "nombre": "Transferencia de Calor", "créditos": "3", "horas": "5", "prerrequisitos": ["EMEC-A0119","EMEC-A0117"] },
+        {"id":"EMEC-A0008", "nombre": "Procesos de Conformado y Fundición", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0006"] },
+        {"id":"EMEC-A0310", "nombre": "Diseño de Elementos de Máquinas", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0309","EMEC-A0211"] },
+        {"id":"CADM-A0G00", "nombre": "Gestión y Emprendimiento", "créditos": "2", "horas": "4", "prerrequisitos": ["SEGD-A0100"] }
+
+      ]
+    },
+    {
+      "nivel": 7,
+      "nombre": "Septimo PAO",
+      "materias": [
+        {"id":"EMEC-A0314", "nombre": "Estructuras Metálicas", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0001", "EMEC-A0310"] },
+        {"id":"EMEC-A0409", "nombre": "Instrumentacíón Industrial MC", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0406"] },
+        {"id":"EMEC-A0132", "nombre": "Sistemas Neumáticos e Hidráulicos", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0124"] },
+        {"id":"EMEC-A0316", "nombre": "Simulación Numérica", "créditos": "2", "horas": "5", "prerrequisitos": ["EMEC-A0310","EMEC-A0124"] },
+        {"id":"EMEC-A0127", "nombre": "Diseño Térmico", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0124"] },
+        {"id":"EMEC-A0312", "nombre": "Diseño en Ingeniería MC", "créditos": "2", "horas": "5", "prerrequisitos": ["EMEC-A0310"] }
+
+      ]
+    },
+    {
+      "nivel": 8,
+      "nombre": "Octavo PAO",
+      "materias": [
+        {"id":"EMEC-A0411", "nombre": "Automatización Industrial MC", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0409"] },
+        {"id":"EMEC-A0131", "nombre": "Máquinas Térmicas", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0127", "EMEC-A0132"] },
+        {"id":"EMEC-A0129", "nombre": "Energías Renovables", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0127","EMEC-A0132"] },
+        {"id":"EMEC-A0015", "nombre": "Seguridad Industrial", "créditos": "2", "horas": "4", "prerrequisitos": ["EMEC-A0007","EMEC-A0008"] },
+        {"id":"EMEC-A0012", "nombre": "Control de Calidad Industrial", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0007","EMEC-A0312"] },
+        {"id":"EMEC-A0013", "nombre": "Ingeniería de Mantenimiento - Prácticas de Servicio Comunitario", "créditos": "4", "horas": "10", "prerrequisitos": ["EMEC-A0007","EMEC-A0312"] }
+
+      ]
+    },
+    {
+      "nombre": "Condicionante",
+      "materias": [
+        {"id":"Octavo Nivel", "prerrequisitos": ["EMEC-A0411","EMEC-A0131","EMEC-A0129","EMEC-A0015","EMEC-A0012","EMEC-E00013"] }
+      ]
+    },
+    {
+      "nivel": 9,
+      "nombre": "Noveno PAO",
+      "materias": [
+        {"id":"vacio-3", "esVacio": true },
+        {"id":"vacio-4", "esVacio": true },
+        {"id":"vacio-5", "esVacio": true },
+        {"id":"vacio-6", "esVacio": true },
+        {"id":"EMEC-A0018", "nombre": "Producción Industrial", "créditos": "3", "horas": "6", "prerrequisitos": ["EMEC-A0012","EMEC-A0015","EMEC-A0013"] },
+        {"id":"EMEC-A0017", "nombre": "Diseño y Evaluación de Proyectos Industriales - Prácticas Laborales", "créditos": "7", "horas": "19", "prerrequisitos": ["EMEC-A0012", "EMEC-A0015","EMEC-A0013"] }
+        
+      ]
+    },
+    {
+      "nivel": 10,
+      "nombre": "Noveno PAO",
+      "materias": [
+        {"id":"EME", "nombre": "MIC - PI Profesionalizante", "créditos": "5", "horas": "5", "prerrequisitos": ["Octavo Nivel"] },
+        {"id":"vacio-7", "esVacio": true },
+        {"id":"vacio-8", "esVacio": true },
+        {"id":"vacio-9", "esVacio": true },
+        {"id":"vacio-10", "esVacio": true },
+        {"id":"vacio-11", "esVacio": true }
+
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "carrera": "Electrónica y Automatización",
+  "universidad": "Universidad de las Fuerzas Armadas - ESPE",
+  "niveles": [
+    {
+      "nivel": 1,
+      "nombre": "Primer PAO",
+      "materias": [
+        {"id":"EXCT-A0301", "nombre": "Cálculo Diferencial e Integral", "créditos": "3", "horas": "6" },
+        {"id":"EXCT-A0201", "nombre": "Química 1", "créditos": "3", "horas": "6"},
+        {"id":"COMP-A0J01", "nombre": "Fundamentos de Programación", "créditos": "3", "horas": "6" },
+        {"id":"EXCT-A0302", "nombre": "Álgebra Lineal", "créditos": "2", "horas": "4" },
+        {"id":"CVDA-A0300", "nombre": "Biología", "créditos": "2", "horas": "4" },
+        {"id":"CHUM-A0100", "nombre": "Metodología de la Investigación Científica", "créditos": "2", "horas": "4" }
+
+      ]
+    },
+    {
+      "nivel": 2,
+      "nombre": "Segundo PAO",
+      "materias": [
+        {"id":"EXCT-A0303", "nombre": "Cálculo Vectorial", "créditos": "3", "horas": "4", "prerrequisitos": ["EXCT-A0301","EXCT-A0302"] },
+        {"id":"EXCT-A0001", "nombre": "Física 1", "créditos": "3", "horas": "4", "prerrequisitos": ["EXCT-A0301","EXCT-A0201","CVDA-A0300"] },
+        {"id":"EXCT-A0401", "nombre": "Ecuaciones Diferenciales Ordinarias", "créditos": "3", "horas": "4", "prerrequisitos": ["EXCT-A0301","EXCT-A0302"] },
+        {"id":"COMP-A0J07", "nombre": "Progrmación Orientada a Objetos", "créditos": "3", "horas": "6", "prerrequisitos": ["COMP-A0J01"] },
+        {"id":"ELEE-A0601", "nombre": "Fundamentos de Circuitos Eléctricos", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0301","EXCT-A0302"] },
+        {"id":"vacio-1", "esVacio": true}
+
+      ]
+    },
+    {
+      "nivel": 3,
+      "nombre": "Tercer PAO",
+      "materias": [
+        {"id":"ELEE-A0501", "nombre": "Electrónica Fundamental", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0601"] },
+        {"id":"ELEE-A0101", "nombre": "Fundamentos de electromagnetismo", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0401","EXCT-A0001"] },
+        {"id":"EXCT-A0501", "nombre": "Estadística", "créditos": "3", "horas": "6", "prerrequisitos": ["EXCT-A0303","EXCT-A0401"] },
+        {"id":"EXCT-A0402", "nombre": "Métodos Numéricos", "créditos": "2", "horas": "4", "prerrequisitos": ["EXCT-A0303","EXCT-A0401"] },
+        {"id":"ELEE-A0001", "nombre": "Metrología Eléctrica y Electrónica", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0601"] },
+        {"id":"ELEE-A0201", "nombre": "Señales y Sistemas", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0601","EXCT-A0401"] }
+
+      ]
+    },
+    {
+      "nivel": 4,
+      "nombre": "Cuarto PAO",
+      "materias": [
+        {"id":"ELEE-A0602", "nombre": "Análisis de circuitos eléctricos", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0601","EXCT-A0402"] },
+        {"id":"ELEE-A0502", "nombre": "Electrónica Aplicada", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0501"] },
+        {"id":"ELEE-A0401", "nombre": "Circuitos y Sistemas Digitales", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0601","COMP-A0J01"] },
+        {"id":"ELEE-A0002", "nombre": "Instrumentación y Sensores", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0501","ELEE-A0001"] },
+        {"id":"ELEE-A0202", "nombre": "Procesamiento Digital de Señales", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0201","EXCT-A0501"] },
+        {"id":"SEGD-A0000", "nombre": "Liderazgo", "créditos": "2", "horas": "4", "prerrequisitos": ["CHUM-A0100"] }
+
+      ]
+    },
+    {
+      "nivel": 5,
+      "nombre": "Quinto PAO",
+      "materias": [
+        {"id":"ELEE-A0603", "nombre": "Máquinas Eléctricas", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0602","ELEE-A0101"] },
+        {"id":"ELEE-A0503", "nombre": "Electrónica de Potencia", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0502","ELEE-A0602"] },
+        {"id":"ELEE-A0402", "nombre": "Sistemas Basados en Microcontrolador", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0401","COMP-A0J07"] },
+        {"id":"ELEE-A0003", "nombre": "Sistemas de Control", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0201","ELEE-A0002"] },
+        {"id":"ELEE-A0021", "nombre": "Tecnologías Aplicadas", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0002","ELEE-A0602"] },
+        {"id":"ELEE-A0301", "nombre": "Redes de Comunicación", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0401"] }
+
+      ]
+    },
+    {
+      "nivel": 6,
+      "nombre": "Sexto PAO",
+      "materias": [
+        {"id":"ELEE-A0004", "nombre": "Sistemas de Accionamiento Industrial", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0503","ELEE-A0021"] },
+        {"id":"ELEE-A0005", "nombre": "Control de Máquinas", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0003","ELEE-A0503","ELEE-A0603"] },
+        {"id":"ELEE-A0006", "nombre": "Automatización Industrial 1", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0003","ELEE-A0503"] },
+        {"id":"ELEE-A0007", "nombre": "Control Digital", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0003"] },
+        {"id":"ELEE-A0403", "nombre": "Sistemas Embebidos", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0402"] },
+        {"id":"ELEE-A0008", "nombre": "Instrumentación Industrial", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0021"] }
+
+      ]
+    },
+    {
+      "nivel": 7,
+      "nombre": "Septimo PAO",
+      "materias": [
+        {"id":"ELEE-A0009", "nombre": "Control de Procesos", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0006","ELEE-A0007","ELEE-A0008"] },
+        {"id":"ELEE-A0010", "nombre": "Comunicaciones Industriales", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0301","ELEE-A0006"] },
+        {"id":"ELEE-A0011", "nombre": "Investigación Aplicada a la Automática", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0403","ELEE-A0006"] },
+        {"id":"ELEE-A0012", "nombre": "Automatización Industrial 2", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0006","ELEE-A0301"] },
+        {"id":"ELEE-A0013", "nombre": "Instalaciones Industriales", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0005","ELEE-A0004"] },
+        {"id":"EXCT-A0103", "nombre": "Matemática Financiera para Ingeniería - Prácticas de Servicio Comunitario", "créditos": "4", "horas": "4-96", "prerrequisitos": ["EXCT-A0501"] }
+
+      ]
+    },
+    {
+      "nivel": 8,
+      "nombre": "Octavo PAO",
+      "materias": [
+        {"id":"ELEE-A0014", "nombre": "Control Inteligente", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0009"] },
+        {"id":"ELEE-A0015", "nombre": "Robótica", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0010","ELEE-A0012"] },
+        {"id":"ELEE-A0016", "nombre": "Electrónica Médica", "créditos": "3", "horas": "6", "prerrequisitos": ["ELEE-A0011","ELEE-A0202"] },
+        {"id":"ELEE-A0017", "nombre": "Proyectos de Automatización", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0012","ELEE-A0013"] },
+        {"id":"ELEE-A0018", "nombre": "Domótica", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0010","ELEE-A0013"] },
+        {"id":"EMEC-E0401", "nombre": "Prácticas Laborales 1", "créditos": "3", "horas": "144", "prerrequisitos": ["EXCT-A0103"] }
+
+      ]
+    },
+    {
+      "nombre": "Condicionante",
+      "materias": [
+        {"id":"Octavo Nivel", "prerrequisitos": ["EMEC-A0413","EMEC-A0014","EMEC-A0412","EMEC-A0013","ELEE-A0033","EMEC-E0401"] }
+      ]
+    },
+    {
+      "nivel": 9,
+      "nombre": "Noveno PAO",
+      "materias": [
+        {"id": "Profesionalizante","nombre": "Trabajo de Integración Curricular / Examen complexivo MIC-PI Profesionalizante ", "créditos": "5", "horas": "0", "prerrequisitos": ["Octavo Nivel"] },
+        {"id":"ELEE-A0019","nombre":"Sistemas de Ejecución de la Manufactura", "créditos": "2", "horas": "4", "prerrequisitos": ["ELEE-A0015","ELEE-A0017"] },
+        {"id":"ELEE-A0020","nombre": "Gestión de Proyectos de Automatización", "créditos": "2", "horas": "4", "prerrequisitos": ["EXCT-A0103","ELEE-A0017"] },
+        {"id":"vacio-3", "esVacio": true },
+        {"id":"CADM-A0G00","nombre": "Gestión y Emprendimiento", "créditos": "2", "horas": "4", "prerrequisitos": ["SEGD-A0000"] },
+        {"id":"SEGD-A0100","nombre":"Realidad Nacional y Geopolítica - Prácticas Laborales 2","créditos":"4","horas": "4-96", "prerrequisitos": ["SEGD-A0000"]}
+        
+      ]
+    }
+
+  ]
+}
