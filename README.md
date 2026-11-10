@@ -4,3 +4,11 @@ Si como persona natural o grupo emprendedor desean una solución web para su pro
 Daniel Moreno - 0992916727
 
 Puedes visitar la página por medio del siguiente link: https://estudio-verde-educativo.vercel.app/
+
+La página cuenta con:
+• Visualización dinámica de mallas académicas universitarias
+• Cursos académicos con sección de información, envio de deberes y calificaciones.
+• Código especializado en Envio de deberes - Notas para saber si el estudiante envió o no el deber o si está calificado o no el deber
+• Cada curso tiene una sección de pizarra, donde el profesor puede escribir su trabajo y al mismo tiempo los estudiantes pueden hacer uso de la pizarra con supervisión del profesor.
+• Designación de perfiles de administrador, docentes y estudiantes con permisos respectivos para cada tipo de usuario
+• Cada estudiante tiene acceso a 4 pizarras individuales para uso personal.
